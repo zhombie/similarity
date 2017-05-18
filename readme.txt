@@ -1,5 +1,6 @@
-1) запуск insert.py - адрес: localhost:8888
-бул барлык биздеги test2.txt-деги ссылкаларды алып жана mongo базага ("demo") салып шыгады.
+1) python insert.py - address: localhost:8888
+links from test2.txt will be tranferred to new mongodb 'demo'
 
-2) запуск demo.py - адрес: localhost:8888
-осы жолы биз енди базадагы данныйларды алып, €гни массивтар, салыстырып шыгамыз да, базаны update жасаймыз (бул жолы кай сурет кайсысына уксайтынына флаг койып кетемиз)
+
+2) python demo.py - address: localhost:8888
+then we will get data from db(numpy arrays) to compare between each of them, after db will be updated(every element flag)
