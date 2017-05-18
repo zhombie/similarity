@@ -1,0 +1,13 @@
+<html>
+<head>
+</head>
+  
+<body>    
+  <img src="{{ image_id['image_link']}}" />
+    <hr>
+    {% for i in li %}
+      <img src = "{{ i['url'] }}" alt = "{{ i['points'] }}"/>
+    {% end %}
+  <hr>
+</body>
+</html>
